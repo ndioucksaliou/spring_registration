@@ -29,10 +29,10 @@ public class UserRepositoryTests {
     @Test
     public void testCreateUser() {
         User user = new User();
-        user.setEmail("mamafall@gmail.com");
+        user.setEmail("ndioucksaliou92@gmail.com");
         user.setPassword("passer");
-        user.setFirstName("Maman");
-        user.setLastName("Fall");
+        user.setFirstName("Saliou");
+        user.setLastName("Ndiouck");
          
         User savedUser = repo.save(user);
          
